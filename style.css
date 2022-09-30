@@ -1,0 +1,57 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center; /* alinhamento do texto no centro */
+  margin: 0;
+}
+
+#hero {
+    width: 592px;
+    margin: 0 auto 72px; /* Coloquei margin 0 no topo, auto nas laterais e 72px inferior */
+}
+
+/* Removi as margens da imagem */
+
+/* Especifiquei a imagem dentro de hero, e coloquei margem inferior de 72px */
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px; /*Coloquei margem inferior */
+}
+
+h1 span {
+  font-weight: bold;
+  /* Removi a margem inferior */
+}
+
+span, a {
+  color: #ff9900;
+}
+
+p, #footer {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#footer a + a {
+    margin-left: 28px;
+}
+
+.line {
+    width: 568px;
+    height: 0;
+    margin: 0 auto 8px; /* Coloquei margin 0 no topo, auto nas laterais e 8px inferior */
+    border: 1px solid #ECEFF2;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0; /* Troquei de top para bottom */
+    right: 0;
+}
